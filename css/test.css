@@ -76,6 +76,22 @@ body {
 	background-color: #43a047;
 }
 
+.a {
+	background-color: rgb(13, 13, 221);
+}
+
+.a:active {
+	background-color: rgb(26, 26, 177);
+}
+
+.b {
+	background-color: rgb(203, 203, 9);
+}
+
+.b:active {
+	background-color: rgb(166, 166, 9);
+}
+
 .two {
 	margin-top: 10px;
 	width: 43%;
@@ -100,14 +116,26 @@ body {
 	align-items: center;
 	background-color: white;
 	margin-top: 15px;
-	height: 10vh;
-	width: 30%;
+	min-height: 60px;
+	width: 90%;
+	max-width: 300px;
 	font-size: 20px;
 	gap: 5px;
+	padding: 5px;
+	box-sizing: border-box;
 }
 
 .result2 {
 	font-weight: bold;
+	word-break: break-all;
+	text-align: center;
+}
+
+.result2 {
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .text {
