@@ -19,6 +19,7 @@ minus.onclick = function () {
 divide.onclick = function () {
 	action = '/'
 }
+
 multiply.onclick = function () {
 	action = '*'
 }
