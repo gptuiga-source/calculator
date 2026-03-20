@@ -14,10 +14,24 @@ minus.onclick = function () {
 	action = '-'
 }
 
-submit.onclick = function () {
-	if (action == '+') {
-		result.textContent = Number(input1.value) + Number(input2.value)
+function greenOrRed(answer) {
+	if (answer > 0) {
+		result.style.color = 'green'
+	} else if (answer == 0) {
+		result.style.color = 'black'
 	} else {
-		result.textContent = Number(input1.value) - Number(input2.value)
+		result.style.color = 'red'
 	}
+}
+
+function number(ipt1, ipt2, action1) {
+	const num1 = Number(ipt1.value)
+	const num2 = Number(ipt2.value)
+
+	return action1 == '+' ? num1 + num2 : num1 - num2
+}
+
+submit.onclick = function () {
+	result.textContent = number(input1, input2, action)
+	greenOrRed(Number(result.textContent))
 }
