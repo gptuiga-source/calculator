@@ -61,24 +61,21 @@ body {
 	transform: scale(0.95);
 }
 
-.z {
-	background-color: #58b4ff;
-}
-
-.x {
+.plus {
 	background-color: #7ae8fb;
 }
 
-.a {
+.minus {
+	background-color: #58b4ff;
+}
+
+.divide {
 	background-color: rgb(121, 143, 253);
 }
 
-
-.b {
+.multiply {
 	background-color: rgb(192, 167, 255);
 }
-
-
 
 .two {
 	margin-top: 10px;
