@@ -60,13 +60,10 @@ body {
 .lox:active {
 	transform: scale(0.95);
 }
-.x:active {
-	background-color: #63c6fc;
+
+.z {
+	background-color: #58b4ff;
 }
-
-
-
-
 
 .x {
 	background-color: #7ae8fb;
@@ -75,7 +72,6 @@ body {
 .a {
 	background-color: rgb(121, 143, 253);
 }
-
 
 
 .b {
