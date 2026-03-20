@@ -61,36 +61,28 @@ body {
 	transform: scale(0.95);
 }
 .x:active {
-	background-color: #327936;
+	background-color: #63c6fc;
 }
 
-.z:active {
-	background-color: #881d1c;
-}
 
-.z {
-	background-color: #bb2927;
-}
+
+
 
 .x {
-	background-color: #43a047;
+	background-color: #7ae8fb;
 }
 
 .a {
-	background-color: rgb(13, 13, 221);
+	background-color: rgb(121, 143, 253);
 }
 
-.a:active {
-	background-color: rgb(26, 26, 177);
-}
+
 
 .b {
-	background-color: rgb(203, 203, 9);
+	background-color: rgb(192, 167, 255);
 }
 
-.b:active {
-	background-color: rgb(166, 166, 9);
-}
+
 
 .two {
 	margin-top: 10px;
