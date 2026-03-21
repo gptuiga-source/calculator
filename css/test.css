@@ -130,6 +130,12 @@ body {
 	top: 25px;
 }
 
+div.counter {
+	color: white;
+	display: flex;
+	justify-content: end;
+}
+
 @media (max-width: 720px) {
 	.tuiga1 {
 		height: 30px;
