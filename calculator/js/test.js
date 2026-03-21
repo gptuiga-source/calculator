@@ -78,3 +78,8 @@ submit.onclick = function () {
 	counter0()
 	updateCounterDisplay()
 }
+
+alert('5' == 5)
+
+
+// привет //
